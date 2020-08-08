@@ -7,7 +7,7 @@ import * as Yup from "yup";
 import logoImg from "../../assets/logo.svg";
 
 import getValidationErros from "../../utils/getValidationErrors";
-import { useAuth } from "../../context/AuthContext";
+import { useAuth } from "../../hooks/AuthContext";
 
 import Input from "../../components/Input";
 import Button from "../../components/Button";
